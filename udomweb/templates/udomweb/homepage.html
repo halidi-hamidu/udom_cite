@@ -1,0 +1,218 @@
+{% extends 'udomweb/main.html' %}
+{% load static %}
+{% block title %} {% endblock %}
+{% block content %}
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators --><label for=""></label>
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'images/slider1.jpg' %}" alt="CIVE" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/slder2.jpg' %}" alt="slider2" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/slider3.jpg' %}" alt="slider3" class="img-fluid">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- ===========================ourprogram_section================================ -->
+<div class="ourprogram_section">
+   <div class="container">
+      <h3 class="text-center">Our Programmes</h3>
+      <div class="row">
+         <!-- <h3 class="text-center">Our Programmes</h3> -->
+         <div class="col-md-3" data-aos="fade-up">
+            <img src="{% static 'images/slider3.jpg' %}" alt="slider3" class="img-fluid">
+            <div class="text-section">
+               <h6 class="link">ujing</h6>
+            </div>
+         </div>
+         <div class="col-md-3" data-aos="fade-up">
+            <img src="{% static 'images/slider3.jpg' %}" alt="slider3" class="img-fluid">
+            <div class="text-section">
+               <h6 class="link">ujing</h6>
+            </div>
+         </div>
+         <div class="col-md-3" data-aos="fade-up">
+            <img src="{% static 'images/slider3.jpg' %}" alt="slider3" class="img-fluid">
+            <div class="text-section">
+               <h6 class="link"> ujing</h6>
+            </div>
+         </div>
+         <div class="col-md-3" data-aos="fade-up">
+            <img src="{% static 'images/slider3.jpg' %}" alt="slider3" class="img-fluid">
+            <div class="text-section">
+               <h6 class="link">ujing</h6>
+            </div>
+         </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="vice_concellor_section">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8 mt-5">
+            <div class="card">
+               <h5 class="card-title">Welcome To The University of Dodoma</h5>
+               <div class="card-body">
+                  <img src="{% static 'Images/faustine_bee.jpg' %}" alt="faustine" class="img-fluid img-thumbnail" data-aos="fade-up">
+                  <p class="text">We are pleased with your decision to undertake tertiary studies at the University of Dodoma (UDOM). You are warmly welcome to our Centre of Excellence that offers value added teaching, research and public service. This website describes the range of academic programmes, which UDOM offers, and various activities undertaken as part of the University Mission and Vision.
+                 In the past eleven years, UDOM has demonstrated a remarkable expansion despite                  many challenges. However, since challenges are the stimulus to success, UDOM                  has attempted to face them with unparalleled determination. Losing to                  challenges has never been part of UDOM vocabulary.
+                 The University of Dodoma was established in 2007 as a collegiate university                  with three colleges: Humanities and Social Sciences, Informatics and Virtual                  Education, and </p>
+                 <a href="#" class="btn btn-primary"> READ MORE</a>
+               </div>
+            </div>
+            <div class="card mt-5">
+               <div class="card-header">
+                  <h6>Recent Announcements | Friday, December 18, 2020</h6>
+               </div>
+               <div class="card-body">
+                  <img src="{% static 'images/announcement.gif' %}" alt="announcement">
+                 <span><a href="#" class="graduation">COMPREHENSIVE LIST OF GRADUANDS ELIGIBLE FOR 2020 GRADUATION</a></</span>
+                 <div class="pdf_section">
+                    <span class="fa fa-file-pdf-o"><a href="#"> Click here to Download (671.37 KB)</a></span>
+                    <span><a href="#">Posted on : Tuesday, December 8, 2020</a></span>
+                 </div>
+               </div>
+               <a href="#" class="btn btn-primary">MORE ANNOUNCEMENT</a>
+            </div>
+         </div>
+         <div class="col-md-4 mt-5">
+            <div class="card mt-0">
+               <div class="card-header">
+                  <h6 class="card-title">Our Channel</h6>
+
+               </div>
+               <hr>
+                  <p class="card-text">UDOM MPYA HAKI NA WAJIBU MAKALA 2020</p>
+                 <iframe width="100%" height="165" src="https://www.youtube.com/embed/yve9p-PZ9sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card mt-3">
+               <div class="card-header">
+                  <h5 class="card-title">Find a Programme</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">Search a programme by entering programme name you want to search</p>
+                  <form class="form-group" action="index.html" method="post">
+                     <div class="form-group">
+                        <input type="text" name="program" value="" class="form-control">
+                     </div>
+                     <div class="form-group">
+                        <a href="#" class="btn btn-warning d-block w3-opacity">SEARCH</a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <!-- ==================hapa hapa================ -->
+            <div class="card mt-3">
+               <div class="card-header">
+                  <h3 class="card-title">Notices</h3>
+                  <!-- <hr> -->
+               </div>
+               <div class="card-body">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- ===============================UDOM in Numbers============= -->
+<div class="udom_in_Numbers">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8 offset-md-2">
+            <h1>RECORD SECTION</h1>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- ===================================addtion section================================= -->
+<div class="outer_container" style="margin-top:-40px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="{% static 'images/hotel.jpg'%}" alt="hotl_images" class="img-fluid" data-aos="fade-up">
+			</div>
+			<div class="col-md-4">
+				<img src="{% static 'images/hotel.jpg'%}" alt="hotl_images" class="img-fluid" data-aos="fade-up">
+			</div>
+			<div class="col-md-4">
+				<img src="{% static 'images/hotel.jpg'%}" alt="hotl_images" class="img-fluid" data-aos="fade-up">
+			</div>
+		</div>
+	</div>
+<div>
+	<!-- =======================another additiion section================ -->
+	<div class="additioon_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 mt-5">
+					<div class="card">
+                  <div class="card-header">
+                     <h5 class="card-title">CHEO</h5>
+                  </div>
+                  <img src="{% static 'images/faustine_bee.jpg'%}" alt="faustine_bee.jpg" class="img-fluid" >
+						<div class="card-body">
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+<div class="">
+   <div class="">
+      <div class="">
+         <div class="">
+            <div class="">
+               <div class="">
+                  <div class="">
+                     <div class="">
+
+                     </div>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>
+
+{% endblock %}
